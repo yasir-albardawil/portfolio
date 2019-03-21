@@ -1,0 +1,55 @@
+header {
+     padding-bottom: 20px;
+     margin-bottom: 20px;
+     border-bottom: 4px solid #555273;
+ }
+.logo {
+    margin-top: 20px;
+}
+
+#header-wrapper {
+    margin-top: 40px;
+}
+
+#header-title {
+    color: #555273;
+}
+
+#header-subtitle {
+    color: #555273;
+}
+
+.card-title {
+    color: #555273;
+}
+
+.card-body {
+    color: #555273;
+}
+.btn-default {
+    background-color: #555273 !important;
+    color: white !important;
+}
+
+.btn-default:hover {
+    background-color: #4f4c6e !important;
+}
+
+#footer-text {
+    font-size: 1.5em;
+    color: #555273;
+}
+
+@media screen and (max-width: 576px) {
+    #header-title {
+        font-size: 1.3em;
+    }
+
+    #header-subtitle {
+        font-size: .9em;
+    }
+
+    #footer-text {
+        font-size: 1.2em;
+    }
+}

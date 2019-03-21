@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 header {
-     padding-bottom: 20px;
-     margin-bottom: 20px;
-     border-bottom: 4px solid #555273;
- }
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #555273;
+}
+
 .logo {
     margin-top: 20px;
 }
@@ -27,6 +27,7 @@ header {
 .card-body {
     color: #555273;
 }
+
 .btn-default {
     background-color: #555273 !important;
     color: white !important;
@@ -53,60 +54,62 @@ header {
     #footer-text {
         font-size: 1.2em;
     }
-=======
-header {
-     padding-bottom: 20px;
-     margin-bottom: 20px;
-     border-bottom: 4px solid #555273;
- }
-.logo {
-    margin-top: 20px;
-}
 
-#header-wrapper {
-    margin-top: 40px;
-}
+    header {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 4px solid #555273;
+    }
 
-#header-title {
-    color: #555273;
-}
+    .logo {
+        margin-top: 20px;
+    }
 
-#header-subtitle {
-    color: #555273;
-}
+    #header-wrapper {
+        margin-top: 40px;
+    }
 
-.card-title {
-    color: #555273;
-}
-
-.card-body {
-    color: #555273;
-}
-.btn-default {
-    background-color: #555273 !important;
-    color: white !important;
-}
-
-.btn-default:hover {
-    background-color: #4f4c6e !important;
-}
-
-#footer-text {
-    font-size: 1.5em;
-    color: #555273;
-}
-
-@media screen and (max-width: 576px) {
     #header-title {
-        font-size: 1.3em;
+        color: #555273;
     }
 
     #header-subtitle {
-        font-size: .9em;
+        color: #555273;
+    }
+
+    .card-title {
+        color: #555273;
+    }
+
+    .card-body {
+        color: #555273;
+    }
+
+    .btn-default {
+        background-color: #555273 !important;
+        color: white !important;
+    }
+
+    .btn-default:hover {
+        background-color: #4f4c6e !important;
     }
 
     #footer-text {
-        font-size: 1.2em;
+        font-size: 1.5em;
+        color: #555273;
     }
->>>>>>> origin/master
+
+    @media screen and (max-width: 576px) {
+        #header-title {
+            font-size: 1.3em;
+        }
+
+        #header-subtitle {
+            font-size: .9em;
+        }
+
+        #footer-text {
+            font-size: .9em;
+        }
+    }
 }
